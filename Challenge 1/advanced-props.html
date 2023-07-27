@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Advanced CSS Properties</title>
+
+    <style>
+        body{
+            text-align: center;
+            background: rgb(85, 78, 100);
+            
+        }
+        img{
+            margin-top: 5cm;
+            height: 75%;
+            width: 75%;
+        }
+        .clip-decagon{
+            clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        }
+        .clip-frame{
+            clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+        }
+
+        div{
+            margin-top: 5cm;
+            margin-bottom: 5cm;
+            width: 160px;
+            height: 80px;
+            padding: 20px;
+            border: 8px solid lightpink;
+            background: lightslategray;
+        }
+
+        .content-box{
+            box-sizing: content-box;
+        }
+
+        .border-box{
+            box-sizing: border-box;
+        }
+
+        div#layer1{
+            z-index: 1;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            width: 500px;
+            height: 250px;
+            background-color: green;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+
+        div#layer2{
+            z-index: 2;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            width: 500px;
+            height: 250px;
+            background-color: orange;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+
+        div#layer3{
+            z-index: -1;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            width: 500px;
+            height: 250px;
+            background-color: aqua;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- <img src="cambg_2.jpg" alt="" class="clip-frame">
+
+
+    <div class="content-box">Content Box</div>
+
+    <div class="border-box">Border Box</div> -->
+
+
+    <!-- <div style="color: rgb(85, 78, 100);"> -->
+        <p>Let's see some other property</p>
+        <div id="layer1">
+            <h1>Programming code examples1</h1>
+        </div>
+        <div id="layer2">
+            <h1>Programming code examples2</h1>
+        </div>
+        <div id="layer3">
+            <h1>Programming code examples3</h1>
+            
+        </div>
+    <!-- </div> -->
+
+</body>
+</html>
