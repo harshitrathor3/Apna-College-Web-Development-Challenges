@@ -1,0 +1,52 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 100px;
+    background-color: rgb(239, 100, 241);
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -1.5em;
+}
+
+.navv{
+    background-color: rgb(35, 15, 15);
+    padding: 1.5em;
+    position: sticky;
+    top: 0px;
+    
+}
+
+nav{
+    /* https://codepen.io/Abhay1810/pen/YzOvvQb */
+    /* position: sticky;
+    top: 0px; */
+}
+
+
+.navv a{
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.main{
+    margin: 2em;
+    margin-left: 3em;
+    width: 90%;
+}
+
+.p{
+    margin-top: 5em;
+    
+
+}
